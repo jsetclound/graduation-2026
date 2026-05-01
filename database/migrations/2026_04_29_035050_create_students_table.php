@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('ttl');
             $table->string('kelas');
             $table->enum('status', ['Lulus', 'Tidak Lulus']);
-            $table->string('nomor_skl'); // Untuk nomor surat resmi
+            $table->string('nomor_skl'); 
             $table->timestamps();
         });
     }

@@ -15,34 +15,31 @@ class StudentSeeder extends Seeder
     {
         $data = [
             [
-                'nis' => '2023242001',
-                'nama_lengkap' => 'Budi Santoso',
+                'nis' => '232410001',
+                'nama_lengkap' => 'Abdul Fikri Hidayat',
+                'gender' => 'Laki-laki',
+                'ttl' => 'CIANJUR, 30 November 2007',
+                'kelas' => 'XII APHP',
                 'status' => 'Lulus',
-                'nomor_skl' => '2023242001',
+                'nomor_skl' => '232410001',
             ],
             [
-                'nis' => '2023242002',
-                'nama_lengkap' => 'Siti Aminah',
+                'nis' => '232410002',
+                'nama_lengkap' => 'ADIS ADELIA',
+                'gender' => 'Perempuan',
+                'ttl' => 'CIANJUR, 27 Juli 2007',
+                'kelas' => 'XII APHP',
                 'status' => 'Lulus',
-                'nomor_skl' => '2023242002',
+                'nomor_skl' => '232410002',
             ],
             [
-                'nis' => '2023242003',
-                'nama_lengkap' => 'Randi Kurniawan',
-                'status' => 'Tidak Lulus',
-                'nomor_skl' => '-', // Bisa diisi strip karena tidak lulus
-            ],
-            [
-                'nis' => '2023242004',
-                'nama_lengkap' => 'Dewi Lestari',
+                'nis' => '232410003',
+                'nama_lengkap' => 'AULIA',
+                'gender' => 'Perempuan',
+                'ttl' => 'CIANJUR, 18 April 2008',
+                'kelas' => 'XII APHP',
                 'status' => 'Lulus',
-                'nomor_skl' => '2023242003',
-            ],
-            [
-                'nis' => '2023242005',
-                'nama_lengkap' => 'Ahmad Fauzi',
-                'status' => 'Tidak Lulus',
-                'nomor_skl' => '-',
+                'nomor_skl' => '232410003',
             ],
         ];
 

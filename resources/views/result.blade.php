@@ -55,21 +55,21 @@
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-start">
                                     <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
+                                        <div class="fw-bold">{{ $student->ttl }}</div>
                                     </div>
-                                    <span class="badge text-bg-info rounded-pill">TTL</span>
+                                    <span class="badge bg-info rounded-pill">TTL</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-start">
                                     <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
+                                        <div class="fw-bold">{{ $student->kelas }}</div>
                                     </div>
-                                    <span class="badge text-bg-info rounded-pill">Kelas</span>
+                                    <span class="badge bg-info rounded-pill">Kelas</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-start">
                                     <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
+                                        <div class="fw-bold">{{ $student->status }}</div>
                                     </div>
-                                    <span class="badge text-bg-info rounded-pill">Status</span>
+                                    <span class="badge bg-info rounded-pill">Status</span>
                                 </li>
                             </ol>
                         </div>
