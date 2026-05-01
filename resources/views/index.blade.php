@@ -7,7 +7,7 @@
     <title>Graduation Announcement | SMK Negeri 1 Cijati</title>
 
     {{-- icon --}}
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo/logo-smkn1cijati.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('public/images/logo/logo-smkn1cijati.png') }}">
 
     {{-- css --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,7 +56,7 @@
             </div>
             <div class="overflow-hidden" style="max-height: 30vh">
                 <div class="container px-5">
-                    <img src="{{ asset('images/TPC_4432.jpg') }}" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    <img src="{{ asset('public/images/TPC_4432.jpg') }}" class="img-fluid border rounded-3 shadow-lg mb-4"
                         alt="Example image" width="700" height="500" loading="lazy" />
                 </div>
             </div>
