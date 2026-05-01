@@ -7,7 +7,7 @@
     <title>Document</title>
 
     {{-- icon --}}
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo/logo-smkn1cijati.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('public/images/logo/logo-smkn1cijati.png') }}">
 
     {{-- css --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,7 +19,7 @@
     <div class="main">
 
         <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <img src="{{ asset('images/logo/logo-smkn1cijati.png') }}" alt="SMK Negeri 1 Cijati" width="100"
+            <img src="{{ asset('public/images/logo/logo-smkn1cijati.png') }}" alt="SMK Negeri 1 Cijati" width="100"
                 height="100" class="d-block mx-auto mb-4">
             <h1 class="display-4 fw-bold text-body-emphasis">
                 Announcment of <br> <em>Graduation</em>
@@ -137,7 +137,7 @@
 
                 <div class="overflow-hidden" style="max-height: 30vh">
                     <div class="container px-5">
-                        <img src="{{ asset('images/TPC_4432.jpg') }}" class="img-fluid border rounded-3 shadow-lg mb-4"
+                        <img src="{{ asset('public/images/TPC_4432.jpg') }}" class="img-fluid border rounded-3 shadow-lg mb-4"
                             alt="Example image" width="700" height="500" loading="lazy" />
                     </div>
                 </div>

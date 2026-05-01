@@ -19,7 +19,7 @@
     <div class="main">
 
         <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <img src="{{ asset('images/logo/logo-smkn1cijati.png') }}" alt="SMK Negeri 1 Cijati" width="100"
+            <img src="{{ asset('publicimages/logo/logo-smkn1cijati.png') }}" alt="SMK Negeri 1 Cijati" width="100"
                 height="100" class="d-block mx-auto mb-4">
             <h1 class="display-4 fw-bold text-body-emphasis">
                 Announcment of <br> <em>Graduation</em>
